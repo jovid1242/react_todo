@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import List from "../components/TodoList/index";
-import AddTodo from "../components/AddTodo/index";
+import List from "../components/TodoList/index.js";
+import AddTodo from "../components/AddTodo/index.js";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
