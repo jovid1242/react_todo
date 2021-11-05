@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../styles/addTodo.css";
 
-export default function Index({ addNewTodo }) {
+export default function AddTodo({ addNewTodo }) {
   const [todo, setTodo] = useState({
     id: null,
     text: null,

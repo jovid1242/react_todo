@@ -5,7 +5,7 @@ import deleteIcon from "../../assets/icon/326606_delete_icon.svg";
 
 import "../../styles/list.css";
 
-export default function Index({ todo, deleteTodo, checkedTodo, editTodo }) {
+export default function TodoList({ todo, deleteTodo, checkedTodo, editTodo }) {
   const [modalShow, setModalShow] = useState(false);
   const [item, setItem] = useState([]);
   return (
