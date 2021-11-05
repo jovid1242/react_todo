@@ -15,6 +15,7 @@ export default function Index({ addNewTodo }) {
   const sendTodo = (e) => {
     e.preventDefault();
     addNewTodo(todo);
+    setTodo({ text: "" });
   };
 
   return (
@@ -23,6 +24,7 @@ export default function Index({ addNewTodo }) {
         <form action="" onSubmit={sendTodo}>
           <input
             type="text"
+            value={todo.text}
             onChange={(e) => handeleInput(e)}
             placeholder="Напишите что ни будь"
           />
